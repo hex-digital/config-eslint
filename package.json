@@ -1,7 +1,6 @@
 {
   "name": "@hexdigital/eslint-config-monorepo",
-  "version": "1.0.1",
-  "private": true,
+  "version": "1.0.2",
   "packageManager": "pnpm@7.1.0",
   "license": "MIT",
   "scripts": {
