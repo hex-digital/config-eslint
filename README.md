@@ -15,6 +15,8 @@
 
 ```bash
 pnpm add -D eslint @hexdigital/eslint-config
+# or
+yarn add -D eslint @hexdigital/eslint-config
 ```
 
 ### Config `.eslintrc`
