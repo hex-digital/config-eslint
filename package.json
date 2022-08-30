@@ -1,9 +1,8 @@
 {
-  "name": "@antfu/eslint-config-monorepo",
+  "name": "@hexdigital/eslint-config-monorepo",
   "version": "0.26.2",
   "private": true,
   "packageManager": "pnpm@7.1.0",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
@@ -12,10 +11,10 @@
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "*",
+    "@hexdigital/eslint-config": "*",
     "bumpp": "^8.2.1",
     "eslint": "^8.23.0",
-    "eslint-plugin-antfu": "workspace:*",
+    "eslint-plugin-antfu": "latest",
     "typescript": "^4.8.2"
   }
 }
