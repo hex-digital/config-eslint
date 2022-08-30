@@ -61,3 +61,7 @@ Create `.vscode/settings.json`
 ## License
 
 [MIT](./LICENSE) License &copy; 2022-PRESENT [Hex Digital](https://github.com/hex-digital)
+
+## Attribution
+
+Big thank you to Antfu for his eslint config that this pulls heavily from.
