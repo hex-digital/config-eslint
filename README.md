@@ -1,10 +1,10 @@
-# @antfu/eslint-config
+# @hexdigital/eslint-config
 
-[![npm](https://img.shields.io/npm/v/@antfu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@antfu/eslint-config)
+[![npm](https://img.shields.io/npm/v/@hexdigital/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@hexdigital/eslint-config)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
-- TypeScript, Vue, React out-of-box
+- TypeScript, Vue out-of-the-box
 - Lint also for json, yaml, markdown
 - Sorted imports, dangling commas for cleaner commit diff
 - Reasonable defaults, best practices, only one-line of config
@@ -14,14 +14,14 @@
 ### Install
 
 ```bash
-pnpm add -D eslint @antfu/eslint-config
+pnpm add -D eslint @hexdigital/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@antfu"
+  "extends": "@hexdigital"
 }
 ```
 
@@ -55,12 +55,9 @@ Create `.vscode/settings.json`
 
 ## Check Also
 
-- [antfu/dotfiles](https://github.com/antfu/dotfiles) - My dotfiles
-- [antfu/vscode-settings](https://github.com/antfu/vscode-settings) - My VS Code settings
-- [antfu/eslint-config](https://github.com/antfu/eslint-config) - My ESLint config
-- [antfu/ts-starter](https://github.com/antfu/ts-starter) - My starter template for TypeScript library
-- [antfu/vitesse](https://github.com/antfu/vitesse) - My starter template for Vue & Vite app
+- [hex-digital/eslint-config](https://github.com/hex-digital/eslint-config) - Our ESLint config
+- [hex-digital/starter-nuxt3-base](https://github.com/hex-digital/starter-nuxt3-base) - Our starter template for Vue & Nuxt3
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2019-PRESENT [Anthony Fu](https://github.com/antfu)
+[MIT](./LICENSE) License &copy; 2022-PRESENT [Hex Digital](https://github.com/hex-digital)
