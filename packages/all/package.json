@@ -1,6 +1,6 @@
 {
   "name": "@hexdigital/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hex Digital's ESLint config",
   "license": "MIT",
   "homepage": "https://github.com/hex-digital/eslint-config",
