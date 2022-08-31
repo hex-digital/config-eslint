@@ -11,8 +11,10 @@
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
-    "@antfu/eslint-config-vue": "latest",
     "@hexdigital/eslint-config-ts": "workspace:*"
   }
 }

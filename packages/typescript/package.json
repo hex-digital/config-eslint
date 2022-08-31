@@ -11,8 +11,11 @@
   "files": [
     "index.js"
   ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
   "dependencies": {
-    "@antfu/eslint-config-ts": "latest",
     "@hexdigital/eslint-config-basic": "workspace:*"
   }
 }

@@ -11,7 +11,7 @@
   "files": [
     "*.js"
   ],
-  "dependencies": {
-    "@antfu/eslint-config-basic": "latest"
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   }
 }
