@@ -15,6 +15,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@hexdigital/eslint-config-ts": "workspace:*"
+    "@hexdigital/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.4.0"
   }
 }
