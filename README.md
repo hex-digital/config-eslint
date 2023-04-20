@@ -55,6 +55,12 @@ Create `.vscode/settings.json`
 }
 ```
 
+## Releasing
+
+```
+pnpm run release
+```
+
 ## Check Also
 
 - [hex-digital/eslint-config](https://github.com/hex-digital/eslint-config) - Our ESLint config
