@@ -3,9 +3,6 @@ module.exports = {
     '@hexdigital/eslint-config-ts',
   ],
   rules: {
-    'no-unused-vars': ['warn', {
-      varsIgnorePattern: '^emit$',
-    }],
     'vue/custom-event-name-casing': ['error', 'camelCase', { ignores: ['/^[a-z]+(?:[A-Z](?:[a-z])*)*:[a-z]+(?:[A-Z](?:[a-z])*)*$/u'] }],
     'vue/max-attributes-per-line': [
       'error',
